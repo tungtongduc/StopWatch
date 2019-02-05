@@ -25,3 +25,11 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Build for platforms
+Run `electron-packager . --platform=[platform]` to build project for specified platform. 
+Allowed values: `linux`, `win32`, `darwin`, `mas`, `all`.
+
+Example: 
+Run `electron-packager . --platform=darwin` to build project for MacOS platform.
+
